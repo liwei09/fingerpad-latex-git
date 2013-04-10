@@ -1,0 +1,91 @@
+\begin{thebibliography}{10}
+
+\bibitem{Ashbrook:2011}
+Daniel Ashbrook, Patrick Baudisch, and Sean White.
+\newblock Nenya: subtle and eyes-free mobile input with a magnetically-tracked
+  finger ring.
+\newblock In {\em Proc. ACM CHI '11}.
+
+\bibitem{Costanza:2007}
+Enrico Costanza, Samuel~A. Inverso, Rebecca Allen, and Pattie Maes.
+\newblock Intimate interfaces in action: assessing the usability and subtlety
+  of emg-based motionless gestures.
+\newblock In {\em Proc. ACM CHI '07}.
+
+\bibitem{Fukumoto:1994}
+Masaaki Fukumoto and Yasuhito Suenaga.
+\newblock Fingering: a full-time wearable interface.
+\newblock In {\em Proc. ACM CHI '94}.
+
+\bibitem{4421009}
+Xinying Han, H.~Seki, and M.~Hikizu.
+\newblock In {\em Proc. IEEE SICE '07}.
+
+\bibitem{Harrison:2009}
+Chris Harrison and Scott~E. Hudson.
+\newblock Abracadabra: wireless, high-precision, and unpowered finger input for
+  very small mobile devices.
+\newblock In {\em Proc. ACM UIST '09}.
+
+\bibitem{Karrer:2010}
+Thorsten Karrer, Moritz Wittenhagen, Florian Heller, and Jan Borchers.
+\newblock Pinstripe: eyes-free continuous input anywhere on interactive
+  clothing.
+\newblock In {\em Proc. ACM UIST '10}.
+
+\bibitem{Liang:2012}
+Rong-Hao Liang, Kai-Yin Cheng, Chao-Huai Su, Chien-Ting Weng, Bing-Yu Chen, and
+  De-Nian Yang.
+\newblock Gausssense: attachable stylus sensing using magnetic sensor grid.
+\newblock In {\em Proc. ACM UIST '12}.
+
+\bibitem{Nanayakkara:2012}
+Suranga Nanayakkara, Roy Shilkrot, and Pattie Maes.
+\newblock Eyering: a finger-worn assistant.
+\newblock In {\em Proc. ACM CHI EA '12}.
+
+\bibitem{Ogata:2012}
+Masa Ogata, Yuta Sugiura, Hirotaka Osawa, and Michita Imai.
+\newblock iring: intelligent ring using infrared reflection.
+\newblock In {\em Proc. ACM UIST '12}.
+
+\bibitem{Saponas:2009}
+T.~Scott Saponas, Desney~S. Tan, Dan Morris, Ravin Balakrishnan, Jim Turner,
+  and James~A. Landay.
+\newblock Enabling always-available input with muscle-computer interfaces.
+\newblock In {\em Proc. ACM UIST '09}.
+
+\bibitem{Sawhney:2000}
+Nitin Sawhney and Chris Schmandt.
+\newblock Nomadic radio: speech and audio interaction for contextual messaging
+  in nomadic environments.
+\newblock {\em ACM Trans. Comput.-Hum. Interact.}, 7(3).
+
+\bibitem{Scott:2010}
+Jeremy Scott, David Dearman, Koji Yatani, and Khai~N. Truong.
+\newblock Sensing foot gestures from the pocket.
+\newblock In {\em Proc. ACM UIST '10}.
+
+\bibitem{4030901}
+Koji Tsukada and M.~Yasamura.
+\newblock {Ubi-Finger: Gesture input device for mobile use}.
+\newblock In {\em Asia-Pacific Computer and Human Interaction}, 2002.
+
+\bibitem{Wobbrock:2007}
+Jacob~O. Wobbrock, Andrew~D. Wilson, and Yang Li.
+\newblock Gestures without libraries, toolkits or training: a \$1 recognizer
+  for user interface prototypes.
+\newblock In {\em Proc. ACM UIST '07}.
+
+\bibitem{wolf2011microinteractions}
+Katrin Wolf, Anja Naumann, Michael Rohs, and J\"{o}rg M\"{u}ller.
+\newblock Taxonomy of microinteractions: Defining microgestures based on
+  ergonomic and scenario-dependent requirements.
+\newblock In {\em Proc. INTERACT '11}.
+
+\bibitem{Yang:2012}
+Xing-Dong Yang, Tovi Grossman, Daniel Wigdor, and George Fitzmaurice.
+\newblock Magic finger: always-available input through finger instrumentation.
+\newblock In {\em Proc. ACM UIST '12}.
+
+\end{thebibliography}

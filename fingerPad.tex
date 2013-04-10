@@ -1,0 +1,200 @@
+\documentclass{article}
+
+\usepackage{times}
+\usepackage{uist}
+\usepackage{url}		% llt: nicely formatted URLs
+\usepackage{balance}  	% to better equalize the last page
+\usepackage{graphics} 	% for EPS, load graphicx instead
+\usepackage{color}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{xspace} %remove space after newcommand
+\usepackage[pdftex]{hyperref}
+
+\graphicspath{{./image/}}
+
+\begin{document}
+
+% --- Copyright notice ---
+\conferenceinfo{UIST'13}{October 8-11, 2013, UK}
+\CopyrightYear{2013}
+\crdata{978-1-xxxx-xxxx-x}
+
+% Uncomment the following line to hide the copyright notice
+% \toappear{}
+% ------------------------
+
+\bibliographystyle{plain}
+
+\title{FingerPad: Private and Subtle Interaction Under Fignertips}
+
+%%
+%% Note on formatting authors at different institutions, as shown below:
+%% Change width arg (currently 7cm) to parbox commands as needed to
+%% accommodate widest lines, taking care not to overflow the 17.8cm line width.
+%% Add or delete parboxes for additional authors at different institutions. 
+%% If additional authors won't fit in one row, you can add a "\\"  at the
+%% end of a parbox's closing "}" to have the next parbox start a new row.
+%% Be sure NOT to put any blank lines between parbox commands!
+%%
+
+\author{Submission \#OOO}
+
+\maketitle
+
+
+\abstract
+We present FingerPad, a nail-mounted device that turns the index fingertip into a touchpad, allowing for private and subtle interaction on the move. 
+FingerPad enables touch input using magnetic tracking, by adding a hall sensor grid on the index fingernail, and a magnet on the thumbnail. 
+Allowing for input through the pinch gesture, FingerPad supports private use, because the movements of the fingers in pinch are subtle and naturally occluded by the operation hand. 
+Functionally, FingerPad is equivalent to a touchpad, and allows for eyes-free use. 
+Additionally, by attaching the devices on the nails, FingerPad can preserve the natural haptic feedbacks without affecting the native functions of the fingertips. 
+Through the user study, we analyze the three design factors, which are posture, commitment method and target size, to conclude the FingerPad's design insights. 
+Though the results shows the trade-off among the factors, generally, participants achieve 93\% accuracy for very small targets (1.2 mm) in the seated condition, and 92\% accuracy for 2.5 mm-width target in the walking condition. 
+%two user studies (seated and walking) in which we studied eyes-free use. 
+
+
+\classification{H5.2 [Information interfaces and presentation]:
+User Interfaces. - Graphical user interfaces.}
+
+\terms{Design, Human Factors}
+
+\keywords{Always available, eye-free interaction, private input, subtle interaction, nail device, finger-mounted device.}
+
+\tolerance=400 
+  % makes some lines with lots of white space, but 	
+  % tends to prevent words from sticking out in the margin
+\input{introduction}
+\input{scenario}
+\input{design}
+\input{prototype}
+\input{userstudy}
+\input{relatedwork}
+
+%\section{DESIGN}
+%Owing to natural bio-mechanism of human hand, use of the index fingertip as a touchpad is not as easy as conventional touch pads. Firstly, unlike flat touch pads, fingertips are soft and curve, causing regions in the fingertip are not equally visible. Secondly, motor space of the two fingers is constrained due to the fact of the index and thumb are mechanically connected by joints. Both make the touch regions in index fingertips not equally attainable.
+
+%To understand how to design touch interface for FingerPad, we conducted a pilot study where we asked participants to rate comfort level in fingertip regions. As illustrated in Figure \ref{fig:pilotStudy}a, the participant, right-handed, was instructed to raise the index finger up front pointing left, suggesting a landscape touchpad, such that they could easily tap with the thumb tip. To guide the participants where to touch in the fingertip, we stick a thin translucent dot patten, in Figure \ref{fig:pilotStudy}b, on their index fingertips. The pattern includes 4 by 4 dots evenly arranged across fingertip as a grid (Figure \ref{fig:pilotStudy}b).
+
+%\begin{figure}
+%\begin{center}
+%  \begin{tabular}{@{\hspace{0.1cm}}c}
+%		\includegraphics[width=1\linewidth]{pilotStudy}\\
+%   \end{tabular}
+%\caption{(a) The posture the participants were instructed to perform in the pilot study. (b) The translucent dot pattern stick on the fingertip to guide the participants through touch.}
+%\label{fig:pilotStudy}
+%\end{center}
+%\end{figure}
+
+
+%\section{DESIGN: IndexPad v.s. ThumbPad}
+%Unlike touchpads where the finger is always considered as an input pen, FingerPad's  pad and pen, referring to index and thumb fingertips, are interchangeable. We include two models into consideration: IndexPad and ThumbPad, depending on which fingertip users perceive as the finger touchpad. Misinterpretation of the model applied can lead to inverted results. For example, on a finger pinch, the sense of touch is contributed from the contact regions locating at different parts in the index and thumb fingertips. These regions suggest different touch positions in both fingertips, as well as in the user's mental. Unfortunately, the model applied only exists in users head. Without understanding what might trigger the decision of the model to use, interaction with FingerPad can be frustrating. 
+
+%To understand how users determine which model to use, and what pros and cons each model inherits, we conduct a pilot study.
+
+%We argue that  this decision is affected by the orientations of the fingertips. Unlike touchpads which always face up allowing for touch, the orientation of FingerPad can be various depending on the context of use. The fact that wearing input devices on fingertips suggests using the device instantly at anytime, as shown in Figure \ref{fingerPadPosture}, making this worse.
+
+%Moreover, unlike touchpads which always face up allowing for touch, the orientation of FingerPad can be various depending on the context of use. 
+%Depending on the context of use, FingerPad's orientation can be various yet unexpected. 
+%The key seems to understand  when and why users perceived their fingertips as the pads.
+%Moreover, the fact that wearing input devices on fingertips suggest using it instantly at anytime makes this worse.
+%FingerPad allows two distinct interpretations of touch. 
+
+%\label{fig:typeOfPads}
+
+%\subsection{Functional regions}
+%Center and upper area receive good comfort level in touch. Lower part is not easily seen. Very lower part often tapping with nail back. Left part taping with thumb tip side. Show several examples in Figure \ref{fig:functionRegion}a.
+
+%As suggesting by the results, we divide the index fingertip into two functional regions: the touch pad , and the bezel buttons, as shown in Figure \ref{fig:functionRegion}b. The pad region suggests a flat surface that maximize visibility and facilitate touch behavior. The bezel regions, on the tip and lower part of the index fingertip, allows buttons to e.g., invoke menus. While the lower part seems wide enough to embed more buttons, we simplify it to single big button because the comfort level is low and the way users might touch it is versatile.
+
+%\begin{figure}
+%\begin{center}
+%  \begin{tabular}{@{\hspace{0.1cm}}c}
+%		\includegraphics[width=1\linewidth]{fingerpadFunction7}\\
+%   \end{tabular}
+%\caption{(a) Example postures of the thumb tapping at tip and lower part of the index fingertip. (b)Design of functional regions in FingerPad.}
+%\label{fig:functionRegion}
+%\end{center}
+%\end{figure}
+
+
+%\section{EXAMPLE APPLICATIONS}
+%We present two example applications including one-handed watch, and finger remote.
+
+
+%\subsection{One-handed watch}
+%Current watch displays, such as Sony SmartWatch, use touch screens for user interaction, which force users to operate bimanually (e.g., raise the watch by one hand, and reach to the touch screen by the other). FingerPad allows one-handed touch input using the same hand with watch.
+%Two applications are included: photo browsing and instant messaging.
+%We map the pad area to touch interface, and the bezel area to side buttons of the watch. 
+%The pad area accepts touch positions that are fed to current application, while the bezel area allows for application switch and invoking context menus.
+
+%Conventional applications interfaces that generally require 2D input are provided, including photo browsing, and instant messaging.
+
+
+%Robin long pressed the index finger pad, followed by a cursor appears on the screen. 
+
+%The user performs (Figure Xa) a slide-to-unlock gesture to activate interactions with the watch. Tapping the side region in bezel area switches from home screen to photo browsing ((Figure Xb). In the pad area, dragging rightward or leftward shows the next or pre photo (Figure Xc), circling to enlarge the current photo (Figure Xd), dragging in enlarge mode to move the viewport,  and double tapping o reset the zooming. To switch albums, the user taps the lower region in bezel area to invoke a menu of albums(Figure Xe) , with which the user further select in the pad area (Figure Xf) .
+% Tapping again to the side in bezel are enters instant messaging. Here, dragging to read next message. By invoking the context menu, the user can create, delete, or reply to a  message (Figure Xg) . Uni-stroke input allows the user to enter text information (Figure Xh) .
+
+
+%\begin{figure}
+%\begin{center}
+%  \begin{tabular}{@{\hspace{0.1cm}}c}
+%		\includegraphics[width=1\linewidth]{applications}\\
+%   \end{tabular}
+%\caption{Applications of FingerPad.}
+%\label{fig:applications}
+%\end{center}
+%\end{figure}
+
+
+%\subsection{Finger remote for presentation.}
+%FingerPad is instant available, plus the human hand excellent at directional pointing in space, allowing %FingerPad a compelling solution to remote control home appliances in surrounding. We demonstrate %FingerPad as a remote control to home televisions. Basic functions are provided, including volume adjustment and channel switch.
+
+%While the interactions in one-handed watch can be directly used, we add advanced controls in this application. 
+%The small fingertip could introduce large CD gain. To avoid xxx, finger remote supports continuing control.
+%For example, to jump to a far channel, the user drags on index fingertip to the right and hold for a moment to enter continuing adding. This save the user from multiple crunches. 
+%To jump to a certain channel, the user can also write the channel number on the index fingertip.
+
+
+%\section{ENABLING TOUCH}
+%To facilitate the discussion, we describe concerns in prototyping under the context of IndexPad (e.g., regarding index fingertip as touchpad, and thumb tip as the touch pen).
+
+%\subsection{Basic principle}
+%The basic idea to determine 
+%The basic idea to calculate  position of 
+%what are our design requirement? why we choose a not b?
+
+%\subsection{Hardwares in concern}
+%\subsubsection{Capacitive sensing}
+%\subsubsection{Magnetometer}
+%\subsubsection{Hall sensor}
+
+
+\section{CONCLUSION}
+We have presented FingerPad, a nail-mounted device that enables touchpad functions on users index fingertips, allowing for private and subtle interaction on the move. Our studies show user ability in cursor control using the pinch gesture with FingerPad. 
+The statistics shows that the users can achieve 93\% accuracy for very small targets (1.2mm) in the seated condition, and 92\% accuracy for 2.5 mm-width target in the walking condition, which is sufficient enough for the mobile usage. 
+Through the user study, the design insights are also concluded through the explored three factors, which are the posture, commit method, and target size.
+Though there always has the trade-off among the factors, the study still shows that the FingerPad can work very well for the subtle interactions.
+
+For the future, although the design of the FingerPad is for mobile glass display usage, the FingerPad might be also worked without visual supports. 
+The different commit methods can also be explored in the future to create more different alternative gestures. 
+For the devices designed for richer private output are invented, users have the need to use it privately with richer input device, and moreover, the method should be subtle enough to achieve the social acceptability, such like the FingerPad.   
+
+
+
+%We also show how to design a better rich subtle interaction  
+
+ %The result suggested that the FingerPad allows for subtle input through fingertips on the move. 
+
+
+
+
+
+\section{ACKNOWLEDGMENTS}
+This section is left blank for blind review.
+
+%\small
+\bibliography{bib}
+
+\end{document}
